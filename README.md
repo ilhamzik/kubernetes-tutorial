@@ -17,9 +17,12 @@ Perbedaan antara strategi Rolling Update dan Recreate Deployment terletak pada b
 
 2. ***Try deploying the Spring Petclinic REST using Recreate deployment strategy and document your attempt.***
 Untuk mengapply Recreate Deployment Strategy, saya mengapply manifest file dengan strategy type berbeda dan menggunakan manifest file service yang sama dengan tutorial sebelumnya.
-------gambar menyusul
+![image](https://github.com/ilhamzik/kubernetes-tutorial/assets/124953758/3528fd90-4e6d-4a81-b882-f80f3df7bb2e)
+![image](https://github.com/ilhamzik/kubernetes-tutorial/assets/124953758/dc6060ff-b4e3-49ef-a928-547b07e4f315)
 
-3. ***Prepare different manifest files for executing Recreate deployment strategy.***
+
+
+4. ***Prepare different manifest files for executing Recreate deployment strategy.***
 
     Manifest filenya yang saya namakan `deployment.yaml` yang baru saya buat berdasarkan `deployment.yaml` pada tutorial.
     `deployment.yaml`:
@@ -84,7 +87,7 @@ Untuk mengapply Recreate Deployment Strategy, saya mengapply manifest file denga
     replicas: 4
     updatedReplicas: 4
     ```
-4. ***What do you think are the benefits of using Kubernetes manifest files? Recall your experience in deploying the app manually and compare it to your experience when deploying the same app by applying the manifest files (i.e., invoking `kubectl apply -f` command) to the cluster.***
+5. ***What do you think are the benefits of using Kubernetes manifest files? Recall your experience in deploying the app manually and compare it to your experience when deploying the same app by applying the manifest files (i.e., invoking `kubectl apply -f` command) to the cluster.***
 Menggunakan manifest files membuat proses deployment lebih terstandarisasi dan terdokumentasi secara deklaratif, mengurangi risiko kesalahan manusia karena tidak perlu mengingat prosedur secara spesifik. Manifest files juga memfasilitasi pengelolaan konfigurasi aplikasi secara efisien, menghilangkan kekhawatiran akan setup manual yang memakan waktu bagi pengguna.
 
-5. ***(Optional) Do the same tutorial steps, but on a managed Kubernetes cluster (e.g., GCP). You need to provision a Kubernetes cluster on Google Cloud Platform. Then, re-run the tutorial steps (Hello Minikube and Rolling Update) on the remote cluster. Document your attempt and highlight the differences and any issues you encountered.***
+6. ***(Optional) Do the same tutorial steps, but on a managed Kubernetes cluster (e.g., GCP). You need to provision a Kubernetes cluster on Google Cloud Platform. Then, re-run the tutorial steps (Hello Minikube and Rolling Update) on the remote cluster. Document your attempt and highlight the differences and any issues you encountered.***
