@@ -19,6 +19,8 @@ Perbedaan antara strategi Rolling Update dan Recreate Deployment terletak pada b
 Untuk mengapply Recreate Deployment Strategy, saya mengapply manifest file dengan strategy type berbeda dan menggunakan manifest file service yang sama dengan tutorial sebelumnya.
 ![image](https://github.com/ilhamzik/kubernetes-tutorial/assets/124953758/3528fd90-4e6d-4a81-b882-f80f3df7bb2e)
 ![image](https://github.com/ilhamzik/kubernetes-tutorial/assets/124953758/dc6060ff-b4e3-49ef-a928-547b07e4f315)
+![image](https://github.com/ilhamzik/kubernetes-tutorial/assets/124953758/44291f12-d311-4e25-9a60-f4e641701a6c)
+
 
 
 
